@@ -51,6 +51,10 @@
   margin-top: 40px;
 }
 
+#images {
+  width: 500px;
+}
+
 @media (max-width: 1150px) {
   #image-grid {
     grid-template-columns: repeat(1, 1fr);
