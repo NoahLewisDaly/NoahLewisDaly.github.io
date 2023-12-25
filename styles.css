@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background-color: #09533b;
+  color: #e1c564;
+  text-align: center;
+  font-style: italic;
+}
+
+#christmas-header {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+#image-grid {
+  display: grid;
+    justify-content: center;
+    align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  justify-items: center;
+  width: 75%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#image-container {
+  width: 350px;
+  height: 350px;
+  max-width: 100%;
+  background-color: #09533b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#image-container img {
+  width: 100%; /* Ensure the image fits within the square without stretching */
+  height: 100%; /* Ensure the image fits within the square without stretching */
+  object-fit: cover; /* Contain the image within the square without stretching */
+  border-radius: 5%;
+  animation: image-move 10s infinite;
+}
+
+
+@keyframes image-move {
+  0% {
+    rotate: 0deg;
+  }
+  25% {
+    rotate: 2deg;
+  }
+  50% {
+    rotate: 0deg
+  }
+  75% {
+    rotate: -2deg
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
