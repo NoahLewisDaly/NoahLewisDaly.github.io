@@ -42,6 +42,10 @@
   animation: image-move 10s infinite;
 }
 
+#link {
+  font-size: 35px;
+}
+
 
 @keyframes image-move {
   0% {
