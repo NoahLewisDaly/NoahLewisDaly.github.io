@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Merry Christmas, Sweet Girl</title>
+  <title>Merry Christmas</title>
+  <link rel="icon" href="images/candy-cane.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <div id="christmas-header">
-      <p>Merry Christmas Baby</p>
+      <p>Merry Christmas, My Love</p>
     </div>
   </header>
   <main>
@@ -25,18 +26,21 @@
       </div>
     </div>
 
+    <div id="text-block">
+      <p>Merry Christmas, my baby. I really hope that you are having the best day ever. I am so happy to be able to get to spend another Christmas with you, and I look forward to many many more. I LOVE YOU!</p>
+    </div>
+
     <div style="margin-top: 50px;">
       <span style="font-size: 35px;">User: KWPhotography@gmail.com</span>
     </div>
 
-    <div style="margin-top: 40px;">
-      <a style="font-size: 35px;" href="https://auth.services.adobe.com/en_US/index.html?callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fadobeid%2FLightroomMobileWeb1%2FAdobeID%2Ftoken%3Fredirect_uri%3Dhttps%253A%252F%252Flightroom.adobe.com%252Fsignin%253Fredirect%253Dhttps%25253A%25252F%25252Flightroom.adobe.com%25252Flibraries%2523old_hash%253D%2526from_ims%253Dtrue%2526client_id%253DLightroomMobileWeb1%2526api%253Dauthorize%2526scope%253DAdobeID%252Copenid%252Cgnav%252Ccreative_sdk%252Ccreative_cloud%252Cadditional_info.roles%252Cportfolio.sdk.accounts%252Cportfolio.sdk.import%26state%3D%257B%2522jslibver%2522%253A%2522v2-v0.31.0-2-g1e8a8a8%2522%252C%2522nonce%2522%253A%25229613356939643011%2522%257D%26code_challenge_method%3Dplain%26use_ms_for_expiry%3Dtrue&client_id=LightroomMobileWeb1&scope=AdobeID%2Copenid%2Cgnav%2Ccreative_sdk%2Ccreative_cloud%2Cadditional_info.roles%2Cportfolio.sdk.accounts%2Cportfolio.sdk.import&state=%7B%22jslibver%22%3A%22v2-v0.31.0-2-g1e8a8a8%22%2C%22nonce%22%3A%229613356939643011%22%7D&relay=49d4eedd-d661-488b-a012-05cc05564e38&locale=en_US&flow_type=token&idp_flow_type=login&s_p=google%2Cfacebook%2Capple&response_type=token&code_challenge_method=plain&redirect_uri=https%3A%2F%2Flightroom.adobe.com%2Fsignin%3Fredirect%3Dhttps%253A%252F%252Flightroom.adobe.com%252Flibraries%23old_hash%3D%26from_ims%3Dtrue%26client_id%3DLightroomMobileWeb1%26api%3Dauthorize%26scope%3DAdobeID%2Copenid%2Cgnav%2Ccreative_sdk%2Ccreative_cloud%2Cadditional_info.roles%2Cportfolio.sdk.accounts%2Cportfolio.sdk.import&use_ms_for_expiry=true#/">Click To Log In</a>
+    <div style="margin-top: 40px; margin-bottom: 40px;">
+      <a style="font-size: 35px;" id="myLink" href="https://auth.services.adobe.com/en_US/index.html?callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fadobeid%2FLightroomMobileWeb1%2FAdobeID%2Ftoken%3Fredirect_uri%3Dhttps%253A%252F%252Flightroom.adobe.com%252Fsignin%253Fredirect%253Dhttps%25253A%25252F%25252Flightroom.adobe.com%25252Flibraries%2523old_hash%253D%2526from_ims%253Dtrue%2526client_id%253DLightroomMobileWeb1%2526api%253Dauthorize%2526scope%253DAdobeID%252Copenid%252Cgnav%252Ccreative_sdk%252Ccreative_cloud%252Cadditional_info.roles%252Cportfolio.sdk.accounts%252Cportfolio.sdk.import%26state%3D%257B%2522jslibver%2522%253A%2522v2-v0.31.0-2-g1e8a8a8%2522%252C%2522nonce%2522%253A%25229613356939643011%2522%257D%26code_challenge_method%3Dplain%26use_ms_for_expiry%3Dtrue&client_id=LightroomMobileWeb1&scope=AdobeID%2Copenid%2Cgnav%2Ccreative_sdk%2Ccreative_cloud%2Cadditional_info.roles%2Cportfolio.sdk.accounts%2Cportfolio.sdk.import&state=%7B%22jslibver%22%3A%22v2-v0.31.0-2-g1e8a8a8%22%2C%22nonce%22%3A%229613356939643011%22%7D&relay=49d4eedd-d661-488b-a012-05cc05564e38&locale=en_US&flow_type=token&idp_flow_type=login&s_p=google%2Cfacebook%2Capple&response_type=token&code_challenge_method=plain&redirect_uri=https%3A%2F%2Flightroom.adobe.com%2Fsignin%3Fredirect%3Dhttps%253A%252F%252Flightroom.adobe.com%252Flibraries%23old_hash%3D%26from_ims%3Dtrue%26client_id%3DLightroomMobileWeb1%26api%3Dauthorize%26scope%3DAdobeID%2Copenid%2Cgnav%2Ccreative_sdk%2Ccreative_cloud%2Cadditional_info.roles%2Cportfolio.sdk.accounts%2Cportfolio.sdk.import&use_ms_for_expiry=true#/">Click To Log In</a>
     </div>
   </main>
 
   <script>
-    // Your JavaScript code
-    // This is where you can add interactivity
+    document.getElementById("myLink").setAttribute("target", "_blank");
   </script>
 </body>
 </html>

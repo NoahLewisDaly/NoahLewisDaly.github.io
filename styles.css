@@ -42,9 +42,20 @@
   animation: image-move 10s infinite;
 }
 
-#link {
-  font-size: 35px;
-  font-family: 'Courier New', Courier, monospace;
+#text-block {
+  font-size: 30px;
+  width: 50%;
+  margin: 0 auto;
+  word-wrap: break-word;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+@media (max-width: 1150px) {
+  #image-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 35px;
+  }
 }
 
 
