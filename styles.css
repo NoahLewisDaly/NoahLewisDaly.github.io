@@ -35,9 +35,9 @@
 }
 
 #image-container img {
-  width: 100%; /* Ensure the image fits within the square without stretching */
-  height: 100%; /* Ensure the image fits within the square without stretching */
-  object-fit: cover; /* Contain the image within the square without stretching */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 5%;
   animation: image-move 10s infinite;
 }
